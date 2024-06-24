@@ -1,8 +1,0 @@
-Combat=108=65=true
-Player=560=160=true
-Movement=208=129=true
-Render=330=138=true
-Exploits=441=158=true
-World=35=283=true
-Gui=5=193=false
-Presets=5=221=false
