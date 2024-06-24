@@ -1,0 +1,27 @@
+Minecraft 1.12.2:true:WWEnothing
+Minecraft Version:true:WWEnothing
+Client name:true:WWEnothing
+X:true:WWEnothing
+Y:true:WWEnothing
+Z:true:WWEnothing
+Block X:true:WWEnothing
+Block Y:true:WWEnothing
+Block Z:true:WWEnothing
+Chunk X:true:WWEnothing
+Chunk Y:true:WWEnothing
+Chunk Z:true:WWEnothing
+Chunk X1:true:WWEnothing
+Chunk Y1:true:WWEnothing
+Chunk Z1:true:WWEnothing
+Facing:true:WWEnothing
+Facing Towards:true:WWEnothing
+Facing Yaw:true:WWEnothing
+Facing Pitch:true:WWEnothing
+Biome:true:WWEnothing
+Light:true:WWEnothing
+Difficulty:true:WWEnothing
+Difficulty1:true:WWEnothing
+Day:true:WWEnothing
+Looking X:true:WWEnothing
+Looking Y:true:WWEnothing
+Looking Z:true:WWEnothing

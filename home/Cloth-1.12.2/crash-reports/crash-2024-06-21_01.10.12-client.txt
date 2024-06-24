@@ -1,0 +1,173 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  MixinLoader (wwe-1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 6/21/24 1:10 AM
+Description: Unexpected error
+
+java.lang.NullPointerException: Unexpected error
+	at ic2.core.block.BlockTileEntity.func_176205_b(BlockTileEntity.java:483)
+	at baritone.af.b(Unknown Source)
+	at baritone.af.a(Unknown Source)
+	at baritone.af.a(Unknown Source)
+	at baritone.j.a(Unknown Source)
+	at baritone.j.onTick(Unknown Source)
+	at baritone.y.a(Unknown Source)
+	at java.util.concurrent.CopyOnWriteArrayList.forEach(Unknown Source)
+	at baritone.y.onTick(Unknown Source)
+	at net.minecraft.client.Minecraft.handler$runTick$zdb001(Minecraft.java)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1755)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1098)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at misc.tweaker.Tweaker.invokeMain(Tweaker.kt:111)
+	at misc.tweaker.Tweaker.stubMain(Tweaker.kt:101)
+	at misc.tweaker.StubMain.main(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at ic2.core.block.BlockTileEntity.func_176205_b(BlockTileEntity.java:483)
+	at baritone.af.b(Unknown Source)
+	at baritone.af.a(Unknown Source)
+	at baritone.af.a(Unknown Source)
+	at baritone.j.a(Unknown Source)
+	at baritone.j.onTick(Unknown Source)
+	at baritone.y.a(Unknown Source)
+	at java.util.concurrent.CopyOnWriteArrayList.forEach(Unknown Source)
+	at baritone.y.onTick(Unknown Source)
+	at net.minecraft.client.Minecraft.handler$runTick$zdb001(Minecraft.java)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['vlad519'/3117, l='MpServer', x=506.94, y=65.00, z=-17.93]]
+	Chunk stats: MultiplayerChunkCache: 36, 36
+	Level seed: 0
+	Level generator: ID 04 - customized, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (494,92,26), Chunk: (at 14,5,10 in 30,1; contains blocks 480,0,16 to 495,255,31), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 646252 game time, 175612 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 14 total; [c4['Девушка-пчела'/65, l='MpServer', x=72.50, y=16.00, z=203.50], EntityZombie['Зомби'/3075, l='MpServer', x=465.50, y=18.00, z=-9.50], EntityWolf['Волк'/73, l='MpServer', x=110.65, y=72.00, z=234.57], EntityWolf['Волк'/75, l='MpServer', x=116.64, y=70.00, z=221.53], EntityWolf['Волк'/76, l='MpServer', x=123.30, y=70.00, z=235.59], c9['Luna'/1230, l='MpServer', x=511.12, y=94.00, z=18.05], EntityPig['Свинья'/1231, l='MpServer', x=480.12, y=91.00, z=23.81], EntityPlayerSP['vlad519'/3117, l='MpServer', x=506.94, y=65.00, z=-17.93], EntityPig['Свинья'/1234, l='MpServer', x=495.76, y=94.00, z=23.37], c9['Luna'/1235, l='MpServer', x=527.07, y=88.00, z=7.70], c4['Девушка-пчела'/1236, l='MpServer', x=493.75, y=91.00, z=29.01], EntityCreeper['Крипер'/3190, l='MpServer', x=488.50, y=64.00, z=-20.50], EntityPig['Свинья'/1239, l='MpServer', x=485.50, y=96.00, z=15.67], EntityPig['Свинья'/1242, l='MpServer', x=468.18, y=89.00, z=0.30]]
+	Retry entities: 4 total; [c4['Девушка-пчела'/65, l='MpServer', x=72.50, y=16.00, z=203.50], EntityWolf['Волк'/73, l='MpServer', x=110.65, y=72.00, z=234.57], EntityWolf['Волк'/75, l='MpServer', x=116.64, y=70.00, z=221.53], EntityWolf['Волк'/76, l='MpServer', x=123.30, y=70.00, z=235.59]]
+	Server brand: fml,forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:532)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2741)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:427)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at misc.tweaker.Tweaker.invokeMain(Tweaker.kt:111)
+	at misc.tweaker.Tweaker.stubMain(Tweaker.kt:101)
+	at misc.tweaker.StubMain.main(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_411, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 601705352 bytes (573 MB) / 1879048192 bytes (1792 MB) up to 1879048192 bytes (1792 MB)
+	JVM Flags: 12 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -Xms1792M -Xmx1792M -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 Optifine OptiFine_1.12.2_HD_U_G5 30 mods loaded, 30 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                    | Version           | Source                                           | Signature                                |
+	|:------ |:--------------------- |:----------------- |:------------------------------------------------ |:---------------------------------------- |
+	| LCHIJA | minecraft             | 1.12.2            | minecraft.jar                                    | None                                     |
+	| LCHIJA | mcp                   | 9.42              | minecraft.jar                                    | None                                     |
+	| LCHIJA | FML                   | 8.0.99.99         | forge-1.12.2-14.23.5.2860.jar                    | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge                 | 14.23.5.2860      | forge-1.12.2-14.23.5.2860.jar                    | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | baubles               | 1.5.2             | Baubles_1.12_1.5.2.jar                           | None                                     |
+	| LCHIJA | betterbuilderswands   | 0.13.1            | BetterBuildersWands_1.12.2_0.13.1.26913450ff.jar | None                                     |
+	| LCHIJA | bonsaitrees           | 1.1.4             | bonsaitrees_1.12.2_1.1.4_b170.jar                | None                                     |
+	| LCHIJA | bookshelf             | 2.3.557           | Bookshelf-1.12.2-2.3.557.jar                     | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | bowinfinityfix        | rv5.1             | bowinfinityfix-1.12.2-rv5.1.jar                  | None                                     |
+	| LCHIJA | codechickenlib        | 3.2.3.358         | CodeChickenLib_1.12.2_3.2.3.358_universal.jar    | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHIJA | jei                   | 4.16.1.301        | jei_1.12.2_4.16.1.301.jar                        | None                                     |
+	| LCHIJA | cyclicmagic           | 1.20.12           | Cyclic-1.12.2-1.20.14.jar                        | 0e5cb559be7d03f3fc18b8cba547d663e25f28af |
+	| LCHIJA | eplus                 | 5.0.178           | EnchantingPlus_1.12.2_5.0.178.jar                | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | ic2                   | 2.8.221-ex112     | industrialcraft_2_2.8.221_ex112.jar              | de041f9f6187debbc77034a344134053277aa3b0 |
+	| LCHIJA | ironchest             | 1.12.2-7.0.67.844 | ironchest_1.12.2_7.0.72.847.jar                  | None                                     |
+	| LCHIJA | ironfurnaces          | 1.3               | ironfurnaces_1.12.2_1.3.jar                      | None                                     |
+	| LCHIJA | itemscroller          | 0.12.0            | itemscroller-1.12.2-0.12.0.jar                   | 2b03e1423915a189b8094816baa18f239d576dff |
+	| LCHIJA | sexmod                | 1.9.0             | Jenny-Mod-Forge-1.12.2-v1.9.0.jar                | None                                     |
+	| LCHIJA | geckolib3             | 3.0.30            | Jenny-Mod-Forge-1.12.2-v1.9.0.jar                | None                                     |
+	| LCHIJA | jeresources           | 0.9.3.203         | JustEnoughResources-1.12.2-0.9.3.203.jar         | None                                     |
+	| LCHIJA | patchouli             | 1.0-23.6          | Patchouli_1.12.2_1.0_23.6.jar                    | None                                     |
+	| LCHIJA | mmorpg                | 1.9.6             | MineandSlash_1.12.2_1.9.7.jar                    | None                                     |
+	| LCHIJA | nei                   | 2.4.3             | NotEnoughItems_1.12.2_2.4.3.245_universal.jar    | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHIJA | flammpfeil.slashblade | mc1.12-r33        | SlashBlade_mc1.12_r33.jar                        | None                                     |
+	| LCHIJA | texfix                | 4.0               | TexFixV_1.12_4.0.jar                             | None                                     |
+	| LCHIJA | timecore              | 1.0.1.1           | timecore-1.12.2-1.0.1.1.jar                      | None                                     |
+	| LCHIJA | torcherino            | 7.5               | TorcherinoClassic.jar                            | None                                     |
+	| LCHIJA | worldedit             | 6.1.10-SNAPSHOT   | worldedit-1_12_2.jar                             | None                                     |
+	| LCHIJA | worldeditcuife3       | 3.0.5             | WorldEdit_CUI_FE3_1.12.2_3.0.5.jar               | None                                     |
+	| LCHIJA | wwe                   | 2.7.2             | wwe-1.12.2.jar                                   | None                                     |
+
+	Loaded coremods (and transformers): 
+MixinLoader (wwe-1.12.2.jar)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 391.35' Renderer: 'GeForce GT 420/PCIe/SSE2'
+	Patchouli open book context: n/a
+	Launched Version: Cloth-1.12.2
+	LWJGL: 2.9.4
+	OpenGL: GeForce GT 420/PCIe/SSE2 GL version 4.6.0 NVIDIA 391.35, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: Русский (Россия)
+	Profiler Position: N/A (disabled)
+	CPU: 4x AMD Athlon(tm) II X4 645 Processor
+	OptiFine Version: OptiFine_1.12.2_HD_U_G5
+	OptiFine Build: 20210124-142939
+	Render Distance Chunks: 6
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 391.35
+	OpenGlRenderer: GeForce GT 420/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 4

@@ -1,0 +1,116 @@
+Aim Assist:true
+Announcer:true
+Anti Book Ban:true
+Anti Hunger:true
+Anti Levitate:true
+Anti Void:true
+Anti Weather:true
+Anti-Knockback:true
+Auto Armor:true
+Auto Clicker:true
+Auto Crystal:true
+Auto Eat:true
+Auto Farm:true
+Auto Fish:true
+Auto Log:true
+Auto Mine:true
+Auto Respawn:true
+Auto Sign:true
+Auto Tool:true
+Auto Totem:true
+Auto Walk:true
+Bed God Mode:true
+Blink:true
+Blood Particles:true
+Boat Fly:true
+Boat Phase:true
+Bow Aim Bot:true
+Camera Clip:true
+Chams:true
+Chat Bot:true
+Chest ESP:true
+Chest Stealer:true
+Click TP:true
+Color List:true
+Color Signs:true
+Combat Info:true
+Criticals:true
+Crystal Aura:true
+Custom Font:true
+Death Coords:true
+Elytra +:true
+Elytra Replace:true
+Entity Ride:true
+Entity Speed:true
+F3 Spoofer:true
+Fancy Chat+:true
+Fast Place:true
+Flight:true
+Freecam:true
+Full Bright:true
+Gui:true
+Hit Boxes:true
+Horse Jump:true
+Hud:true
+IRC:true
+Ice Speed:true
+Infinite Chat Length:true
+Insulter:true
+Inventory Cleaner:true
+Inventory Walk:true
+Item ESP:true
+Item Saver:true
+Jesus:true
+Join/Leave msgs:true
+Key Repeat:true
+Kill Aura:true
+Liquid Interact:true
+Log Out Spot:true
+Low Shield:true
+MCF:true
+Mob ESP:true
+Name Tags:true
+No Break Delay:true
+No Cave Culling:true
+No Fall:true
+No Push:true
+No Render:true
+No Slow Down:true
+No Turn:true
+Note Bot:true
+Note Bot Stealer:true
+Nuker:true
+Off Hand:true
+Off Hand Crash:true
+Outline ESP:true
+Packet Fly:true
+Path Finder:true
+Peek:true
+Player ESP:true
+Portal:true
+Rainbow Enchant:true
+Safe Walk:true
+Scaffold:true
+Search:true
+Sneak:true
+Spammer:true
+Speed:true
+Speed Mine:true
+Sprint:true
+Step:true
+Strong Hold Finder:true
+Surround:true
+Teleport Finder:true
+Time Stamp:true
+Timer:true
+Toxic:true
+Tps Sync:true
+Tracers:true
+Trajectories:true
+Treasure Map Coords:true
+Tunneller:true
+Water Bucket:true
+Way Points:true
+XCarry:true
+Xray:true
+Yaw:true

@@ -1,0 +1,263 @@
+Speed:Mode:String:Fast hop
+Speed:Strafe jump:Boolean:true
+Speed:Timer:Double:1.08
+Speed:Modifier:Double:1.0
+Gui:Red:Double:189.0
+Gui:Green:Double:0.0
+Gui:Blue:Double:0.0
+Gui:Scrolling:String:Normal
+Gui:Search:Boolean:false
+Gui:Tool Tips:Boolean:true
+Anti-Knockback:Mode:String:New
+Inventory Walk:Chat:Boolean:false
+Flight:Mode:String:Vanilla
+Flight:Speed:Double:1.0
+Sprint:Mode:String:Normal
+Color List:Mode:String:Down
+Outline ESP:Mode:String:Outline
+Outline ESP:Players:Boolean:true
+Outline ESP:Animals:Boolean:false
+Outline ESP:Monsters:Boolean:false
+Outline ESP:Crystals:Boolean:false
+Outline ESP:Every Thing:Boolean:false
+Outline ESP:Color:Boolean:true
+Auto Log:AutoLog:Boolean:true
+Auto Log:CrystalLog:Boolean:false
+Auto Log:Health:Double:4.0
+Auto Log:Crystal Range:Double:6.0
+Auto Log:Entities:Boolean:false
+Item ESP:Rainbow:Boolean:true
+Freecam:Speed:Double:1.14
+Freecam:Cave Render:Boolean:false
+Freecam:Cancel Packets:Boolean:true
+Chest Stealer:Chest:Boolean:true
+Chest Stealer:Shulker box:Boolean:true
+Chest Stealer:Donkey:Boolean:true
+Chest Stealer:Random:Boolean:false
+Chest Stealer:Close:Boolean:true
+Chest Stealer:Delay:Double:0.25
+Auto Armor:Delay:Double:0.3
+Timer:Speed:Double:2.0
+Horse Jump:Height:Double:1.2
+Horse Jump:Mode:String:Normal
+Player ESP:Mode:String:Box
+Elytra +:Mode:String:Normal
+Elytra +:Speed:Double:1.5
+Elytra +:Accelerate:Boolean:false
+Elytra +:Accelerate Speed:Double:0.1
+Elytra +:Accelerate Start:Double:0.5
+Elytra +:Accelerate Max:Double:2.5
+Full Bright:Mode:String:Potion
+Chest ESP:Chest:Boolean:true
+Chest ESP:Ender chest:Boolean:true
+Chest ESP:Furnace:Boolean:true
+Chest ESP:Dispenser:Boolean:true
+Chest ESP:Dropper:Boolean:true
+Chest ESP:Hopper:Boolean:true
+Chest ESP:Shulker box:Boolean:true
+Chest ESP:Mine cart:Boolean:true
+Chest ESP:Item frame:Boolean:true
+Chest ESP:Mode:String:Box
+Entity Speed:Speed:Double:3.5
+Crystal Aura:Mode:String:Normal
+Crystal Aura:Priority:String:Closest
+Crystal Aura:Eatting:String:Stop
+Crystal Aura:Event:String:Pre
+Crystal Aura:Rotation Type:String:Snap
+Crystal Aura:Attack Delay:Double:0.1
+Crystal Aura:Place:Boolean:false
+Crystal Aura:Place Break:Boolean:true
+Crystal Aura:One Place:Boolean:true
+Crystal Aura:Place Delay:Double:0.1
+Crystal Aura:ESP:Boolean:false
+Crystal Aura:Y Difference:Double:0.0
+Crystal Aura:Range:Double:4.5
+Crystal Aura:Hit chance:Double:100.0
+Tracers:Animal:Boolean:true
+Tracers:Mobs:Boolean:false
+Tracers:Player:Boolean:true
+Tracers:Crystal:Boolean:false
+Tracers:Extra Lines:Boolean:true
+Tracers:Width:Double:1.5
+Hud:Array List Mode:String:Bottom Right
+Hud:Information:String:Bottom Left
+Hud:Text Shadow:Boolean:true
+Hud:Water Mark:Boolean:true
+Hud:Array List:Boolean:true
+Hud:FPS:Boolean:true
+Hud:Overworld Coords:Boolean:true
+Hud:Nether Coords:Boolean:true
+Hud:TPS:Boolean:true
+Hud:ArmorHUD:Boolean:true
+Hud:Tab Gui:Boolean:true
+Hud:Rects:Boolean:false
+Hud:Rects length:Double:1.0
+Hud:Cooler Rects:Boolean:false
+Hud:BPS:Boolean:true
+Hud:BPS Timer Sync:Boolean:true
+Hud:Radar:Boolean:false
+Hud:Radar Chests:Boolean:true
+Hud:Radar Mode:String:Square
+Hud:Radar Lines:Boolean:true
+Hud:Radar Indicator:String:Minecraft
+Hud:Radar Rotation:String:Indicator
+Hud:Radar Entities:String:Squares
+Hud:Radar Scale:Double:50.0
+Hud:Potions:Boolean:true
+Hud:Lag Meter:Boolean:true
+Hud:Entities:Boolean:false
+Hud:Ping:Boolean:false
+Hud:Hud Durability:Boolean:false
+Hud:Item Durability:Boolean:false
+Hud:Lava Warning:Boolean:true
+Hud:Biome:Boolean:false
+Auto Totem:Mode:String:Dev
+Packet Fly:Mode:String:Fast
+Packet Fly:Y Distance:Double:999.0
+Packet Fly:Y Mode:String:Y-
+Packet Fly:Wait:Boolean:true
+Packet Fly:Wait Time:Double:2.5
+Packet Fly:Wait Offset:Double:5.0
+Packet Fly:Speed:Double:1.0
+Scaffold:Mode:String:All
+Scaffold:No Swing:Boolean:true
+Scaffold:Tower:Boolean:true
+Scaffold:Extend:Boolean:false
+Scaffold:Safe Walk:Boolean:true
+Custom Font:Height:Double:0.0
+Custom Font:Font:String:Comfortaa
+Step:Mode:String:Normal
+Name Tags:Health:Boolean:true
+Name Tags:Head:Boolean:true
+Name Tags:Potions:Boolean:true
+Name Tags:Ping:Boolean:false
+Name Tags:Durability:Boolean:true
+Name Tags:Stack Size:Boolean:false
+Name Tags:Size:Double:0.5
+Log Out Spot:Mode:String:Cache
+Log Out Spot:Chat:Boolean:true
+Log Out Spot:ESP:Boolean:true
+Log Out Spot:Name Tag:Boolean:true
+Log Out Spot:Name Tag Size:Double:0.5
+Log Out Spot:Name Tag Health:Boolean:true
+Log Out Spot:Name Tag Head:Boolean:true
+Kill Aura:Mode:String:Multi
+Kill Aura:Priority:String:Closest
+Kill Aura:Body Part:String:Head
+Kill Aura:Eatting:String:Stop
+Kill Aura:Event:String:Pre
+Kill Aura:Rotation Type:String:Snap
+Kill Aura:Players:Boolean:false
+Kill Aura:Animals:Boolean:false
+Kill Aura:Mobs:Boolean:true
+Kill Aura:1.9+ Delay:Boolean:false
+Kill Aura:Aimbot:Boolean:false
+Kill Aura:Invisibles:Boolean:false
+Kill Aura:Walls:Boolean:true
+Kill Aura:Range:Double:6.0
+Kill Aura:CPS:Double:8.24
+Kill Aura:Hit chance:Double:100.0
+Boat Fly:Speed:Double:2.0
+Boat Fly:Boats:Boolean:true
+Blood Particles:Sound:Boolean:true
+Auto Clicker:Mode:String:Left
+Auto Clicker:1.9+ Delay:Boolean:true
+Auto Clicker:Trigger bot:Boolean:false
+Auto Clicker:CPS:Double:11.0
+Aim Assist:Players:Boolean:true
+Aim Assist:Mobs:Boolean:false
+Aim Assist:Insvibles:Boolean:false
+Aim Assist:Walls:Boolean:true
+Aim Assist:Range:Double:6.0
+Combat Info:Range:Double:200.0
+Combat Info:Heads:Boolean:true
+Combat Info:Names:Boolean:false
+Combat Info:Coords:Boolean:false
+Bow Aim Bot:Rotations:String:Client
+Bow Aim Bot:Players:Boolean:true
+Bow Aim Bot:Animals:Boolean:false
+Bow Aim Bot:Mobs:Boolean:false
+Bow Aim Bot:invisibles:Boolean:false
+Auto Farm:Mode:String:Packet
+Auto Farm:Delay:Double:0.3
+Auto Farm:Radius:Double:4.0
+Jesus:Old Packets:Boolean:false
+Jesus:Test:Boolean:false
+Jesus:Mode:String:Solid
+No Render:Fire:Boolean:true
+No Render:Wither:Boolean:true
+No Render:Light Lag:Boolean:true
+No Render:Hurt Cam:Boolean:true
+No Render:Nausea:Boolean:true
+No Render:Potion Icon:Boolean:false
+No Render:Portal Over Lay:Boolean:true
+No Render:Score Board:Boolean:true
+Path Finder:Mode:String:Normal
+Path Finder:Remove:Boolean:false
+Toxic:Range:Double:3.0
+Yaw:Yaw:String:0
+Camera Clip:More Distance:Boolean:false
+Camera Clip:Camera Distance:Double:10.0
+Search:Tracer:Boolean:true
+Search:ESP:Boolean:false
+Speed Mine:Mode:String:Haste 2
+Low Shield:Height:Double:0.75
+Anti Levitate:Mode:String:Aura
+Peek:Shulker:Boolean:true
+Peek:Map:Boolean:false
+Peek:Mode:String:Minecraft
+Inventory Cleaner:Delay:Double:2.0
+Spammer:Delay:Double:7.0
+Spammer:Random:Boolean:false
+Sneak:Mode:String:Normal
+Color Signs:Mode:String:Multiplayer
+Tunneller:Rotations:Boolean:true
+Tunneller:Legit Rotations:Boolean:false
+Tunneller:Bypass:Boolean:false
+Tunneller:Fill:Boolean:true
+Tunneller:Fill Lava:Boolean:true
+Tunneller:Fill Flowing Lava:Boolean:true
+Tunneller:ESP:Boolean:false
+Tunneller:Delay:Double:0.1
+Portal:Portal Chat:Boolean:true
+Portal:Hit Box:Boolean:true
+Portal:God Mode:Boolean:true
+Nuker:Mode:String:Creative
+Nuker:Break:String:Client
+Nuker:All Blocks:Boolean:true
+Nuker:Left:Double:2.0
+Nuker:Right:Double:2.0
+Nuker:Forward:Double:2.0
+Nuker:Backward:Double:2.0
+Nuker:Up:Double:2.0
+Nuker:Down:Double:2.0
+Nuker:ESP:Boolean:false
+Nuker:Grasses:Boolean:false
+Nuker:Hopper:Boolean:false
+Nuker:Bed:Boolean:false
+Nuker:Draw Selection Box:Boolean:false
+Fancy Chat+:Mode:String:Derp
+Insulter:Delay:Double:10.0
+Surround:Delay:Double:0.1
+Surround:Legit:Boolean:false
+Chat Bot:Mode:String:<name>
+Chat Bot:Delay:Double:1.5
+Hit Boxes:Hit Box Size:Double:0.2
+Hit Boxes:Entity Box:Boolean:true
+Item Saver:Durability amount:Double:2.0
+Announcer:Delay:Double:30.0
+Auto Eat:Hunger:Double:8.0
+Auto Eat:Use Gapples:Boolean:false
+Auto Eat:Prefer Gapples:Boolean:false
+Strong Hold Finder:Intersection Lines:Boolean:true
+Strong Hold Finder:Tracer:Boolean:true
+Note Bot:Mode:String:All
+Note Bot:Tune:Boolean:false
+Note Bot:Lyrics:Boolean:true
+Note Bot:Max Notes:Double:7.0
+Note Bot:ESP:Boolean:false
+Off Hand Crash:Do Crash:Boolean:false
+Off Hand Crash:Anti Crash:Boolean:true
+Off Hand Crash:Speed:Double:500.0
+Teleport Finder:Give:Double:10.0
+Teleport Finder:Log To File:Boolean:true
